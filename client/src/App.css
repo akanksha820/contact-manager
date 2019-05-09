@@ -1,0 +1,116 @@
+.App {
+  text-align: center;
+  background-color: antiquewhite;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.links {
+  color : black;
+  display: inline-flex;
+  font-size : 150%;
+  align-items: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 100;
+  background-color: antiquewhite;
+}
+
+.heading {
+  text-align: center;
+  background-color: antiquewhite;
+  font-size: 300%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  color:brown;
+}
+
+.container {
+  background-color: antiquewhite;
+  text-align: center;
+
+}
+
+.home {
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: antiquewhite;
+}
+
+.register {
+  background-color: antiquewhite;
+  font-style: italic;
+}
+.registerHeading {
+  color: brown;
+}
+.button {
+  border: 1px solid brown;
+  background-color: brown;
+  text-decoration : none;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.textbox {
+  margin-bottom: 5px;
+  padding-left: 10px;
+  margin-left: 10px;
+
+}
+.spanEmail {
+  text-align: left;
+
+}
+.email {
+  margin-right: 10px;
+  margin-left:10px;
+  padding-left: 10px;
+  padding-right : 10px;
+  margin-top: 10px;
+  text-align : left;
+  text-align:right;
+}
+
+.search {
+  border: 1px solid brown;
+  background-color : white;
+  text-decoration : none;
+  padding: 10px;
+  color: brown;
+  border-radius: 5px;
+  margin-top: 20px;
+
+}
+
+body {
+  background-color : antiquewhite;
+}
